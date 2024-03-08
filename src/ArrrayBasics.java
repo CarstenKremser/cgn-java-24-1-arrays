@@ -45,8 +45,8 @@ public class ArrrayBasics {
             if (maxNumber < numbers[i]) {
                 maxNumber = numbers[i];
             }
-        return maxNumber;
         }
+        return maxNumber;
     }
 
     public static int[] addNumberArrays(int[] numbers1, int[] numbers2) {
