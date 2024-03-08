@@ -14,6 +14,24 @@ public class Main {
         nums[3] = 20;
 
         printNumbers(nums);
+
+        System.out.println("--------");
+
+        int[][] twobytwo = new int[2][2];
+        twobytwo[0][0] = 1;
+        twobytwo[0][1] = 2;
+        twobytwo[1][0] = 3;
+        twobytwo[1][1] = 4;
+
+        //int[][] twobytwo = {{1,2},{3,4}};
+
+        for (int i = 0; i < 2; i++) {
+            for (int j = 0; j < 2; j++) {
+                System.out.println(twobytwo[i][j]);
+
+            }
+
+        }
     }
 
     public static void printNumbers (int[] numbers) {
