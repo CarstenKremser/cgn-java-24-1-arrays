@@ -3,7 +3,7 @@ public class Main {
     public static void main(String[] args) {
 
         // [] -> Array    0,  1, 2
-        int [] numbers = {5, 10, 4};
+        //int [] numbers = {5, 10, 4};
 
         //printNumbers(numbers);
 
